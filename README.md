@@ -18,11 +18,11 @@ STEDI has three JSON data sources to use from the Step Trainer.
 
 We will upload the json data after downloading it to our local. 
 
-``` git clone https://github.com/anwesha-git/nd027-Data-Engineering-Data-Lakes-AWS-Exercises.git
+ `git clone https://github.com/anwesha-git/nd027-Data-Engineering-Data-Lakes-AWS-Exercises.git`
   cd nd027-Data-Engineering-Data-Lakes-AWS-Exercises//project/starter/
   aws s3 ls s3://as-glue/customer/landing/
   aws s3 cp ./accelerometer s3://as-glue/accelerometer/landing/ --recursive
-  aws s3 cp ./step_trainer s3://as-glue/step_trainer/landing/ --recursive ```
+  aws s3 cp ./step_trainer s3://as-glue/step_trainer/landing/ --recursive 
 
 Below is the record details:
 ### Customer Records
