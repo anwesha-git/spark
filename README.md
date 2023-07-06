@@ -12,17 +12,17 @@ We'll need to extract the data produced by the STEDI Step Trainer sensors and th
 ## Project Data
 STEDI has three JSON data sources to use from the Step Trainer.
 
-customer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/customer )
-step_trainer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/step_trainer )
-accelerometer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/accelerometer )
+  customer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/customer )
+  step_trainer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/step_trainer )
+  accelerometer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/accelerometer )
 
 We will upload the json data after downloading it to our local. 
 
 ``` git clone https://github.com/anwesha-git/nd027-Data-Engineering-Data-Lakes-AWS-Exercises.git
-``` cd nd027-Data-Engineering-Data-Lakes-AWS-Exercises//project/starter/
+  cd nd027-Data-Engineering-Data-Lakes-AWS-Exercises//project/starter/
   aws s3 ls s3://as-glue/customer/landing/
   aws s3 cp ./accelerometer s3://as-glue/accelerometer/landing/ --recursive
-  aws s3 cp ./step_trainer s3://as-glue/step_trainer/landing/ --recursive
+  aws s3 cp ./step_trainer s3://as-glue/step_trainer/landing/ --recursive ```
 
 Below is the record details:
 ### Customer Records
