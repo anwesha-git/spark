@@ -35,6 +35,7 @@ We will upload the json data after downloading it to our local.
 
 ### Customer Records
 contains the following fields:
+
 serialnumber
 sharewithpublicasofdate
 birthday
@@ -48,17 +49,19 @@ sharewithfriendsasofdate
 
 ### Step Trainer Records
 contains the following fields:
+
 sensorReadingTime
 serialNumber
 distanceFromObject
 
 ### Accelerometer Records
 contains the following fields:
-. timeStamp
-. user
-. x
-. y
-. z
+
+timeStamp
+user
+x
+y
+z
 
 ## Requirement
 To simulate the data coming from the various sources, we will need to create our own S3 directories for customer_landing, step_trainer_landing, and accelerometer_landing zones, and copy the data there as a starting point.
