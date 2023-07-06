@@ -12,9 +12,9 @@ We'll need to extract the data produced by the STEDI Step Trainer sensors and th
 ## Project Data
 STEDI has three JSON data sources to use from the Step Trainer.
 
-  customer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/customer )
-  step_trainer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/step_trainer )
-  accelerometer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/accelerometer )
+customer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/customer )
+step_trainer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/step_trainer )
+accelerometer  (https://github.com/udacity/nd027-Data-Engineering-Data-Lakes-AWS-Exercises/tree/main/project/starter/accelerometer )
 
 We will upload the json data after downloading it to our local. 
 
