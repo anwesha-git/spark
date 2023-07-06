@@ -54,11 +54,11 @@ distanceFromObject
 
 ### Accelerometer Records
 contains the following fields:
-timeStamp
-user
-x
-y
-z
+1. timeStamp
+2. user
+3. x
+4. y
+5. z
 
 ## Requirement
 To simulate the data coming from the various sources, we will need to create our own S3 directories for customer_landing, step_trainer_landing, and accelerometer_landing zones, and copy the data there as a starting point.
