@@ -38,7 +38,7 @@ InnerJoin_node1688578956120 = Join.apply(
 # Script generated for node Drop Fields
 DropFields_node1688579055746 = DropFields.apply(
     frame=InnerJoin_node1688578956120,
-    paths=["user", "timestamp", "x", "y", "z"],
+    paths=["user", "timestamp", "x", "y", "z", "email", "phone", "birthday"],
     transformation_ctx="DropFields_node1688579055746",
 )
 
