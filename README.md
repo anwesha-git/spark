@@ -30,7 +30,7 @@ We will upload the json data after downloading it to our local.
 
  `` aws s3 cp ./step_trainer s3://as-glue/step_trainer/landing/ --recursive ``
 
-
+ 
 #### Below is the record details:
 
 ### Customer Records
